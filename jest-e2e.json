@@ -4,6 +4,7 @@
   "rootDir": ".",
   "testEnvironment": "node",
   "coverageDirectory": "./coverage",
+//this is my second bug
   "setupFilesAfterEnv": ["./tests/jestSetupAfterEnv.ts"],
   "globalSetup": "<rootDir>/tests/jestGlobalSetup.ts",
   "testRegex": ".e2e-spec.ts$",
