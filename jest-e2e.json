@@ -1,7 +1,7 @@
 {
   "moduleFileExtensions": ["js", "json", "ts"],
   "rootDir": ".",
-  "testEnvironment": "node",
+//this string is too wrong
   "coverageDirectory": "./coverage",
   "setupFilesAfterEnv": ["./tests/jestSetupAfterEnv.ts"],
   "globalSetup": "<rootDir>/tests/jestGlobalSetup.ts",
