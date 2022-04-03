@@ -9,7 +9,6 @@
   "moduleNameMapper": {
     "@src/(.*)$": "<rootDir>/src/$1",
     "@modules/(.*)$": "<rootDir>/src/modules/$1",
-    "@config/(.*)$": "<rootDir>/src/infrastructure/configs/$1",
     "@exceptions$": "<rootDir>/src/libs/exceptions",
     "@libs/(.*)$": "<rootDir>/src/libs/$1"
   },
