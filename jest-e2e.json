@@ -2,7 +2,7 @@
 //this is my first bug
   "moduleFileExtensions": ["js", "json", "ts"],
   "rootDir": ".",
-  "testEnvironment": "node",
+//this string is too wrong
   "coverageDirectory": "./coverage",
 //this is my second bug
   "setupFilesAfterEnv": ["./tests/jestSetupAfterEnv.ts"],
@@ -11,12 +11,12 @@
   "moduleNameMapper": {
     "@src/(.*)$": "<rootDir>/src/$1",
     "@modules/(.*)$": "<rootDir>/src/modules/$1",
-    "@config/(.*)$": "<rootDir>/src/infrastructure/configs/$1",
     "@exceptions$": "<rootDir>/src/libs/exceptions",
     "@libs/(.*)$": "<rootDir>/src/libs/$1"
   },
 //this is my third bug
   "transform": {
+//you choose wrong code
     "^.+\\.(t|j)s$": "ts-jest"
   }
 }
