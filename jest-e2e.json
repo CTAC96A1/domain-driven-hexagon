@@ -15,6 +15,7 @@
     "@exceptions$": "<rootDir>/src/libs/exceptions",
     "@libs/(.*)$": "<rootDir>/src/libs/$1"
   },
+//this is my third bug
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
   }
