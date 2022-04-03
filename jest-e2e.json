@@ -13,6 +13,7 @@
     "@libs/(.*)$": "<rootDir>/src/libs/$1"
   },
   "transform": {
+//you choose wrong code
     "^.+\\.(t|j)s$": "ts-jest"
   }
 }
